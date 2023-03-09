@@ -2,8 +2,8 @@
 
 const snackSelection = 'Pretzels';
 
-if (snackSelection = 'Pretzels') {
-  console.log("That'll be $1, please!");
+if (snackSelection === 'Pretzels') {
+  console.log("That'll be Ksh.100, please!");
 }
 
 
@@ -16,5 +16,9 @@ function first () {
 function second () {
   third();
 }
+
+function third() {
+  console.log("Third is now a function!")
+};
 
 first();
